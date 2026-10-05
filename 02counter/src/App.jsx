@@ -7,6 +7,12 @@ function App() {
 
   const addValue = () =>{
     setCounter(counter + 1)
+/* 
+    setCounter(prevCounter => prevCounter + 1);   // it is a important part of interview purpose
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1); 
+ */
     console.log("Value added successfully...", counter);
   }
 
